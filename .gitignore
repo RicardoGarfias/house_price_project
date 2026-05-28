@@ -1,0 +1,28 @@
+# ── Archivos grandes (superan el límite de 100 MB de GitHub) ──────────────────
+data/raw/house_prices.csv
+data/processed/house_prices_clean.csv
+app/model_rf.pkl
+
+# ── Entorno virtual ────────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Caché de Python ────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ── Jupyter checkpoints ────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Sistema operativo ──────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDEs ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+
+# ── Variables de entorno ───────────────────────────────────────────────────────
+.env
